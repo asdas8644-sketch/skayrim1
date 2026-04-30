@@ -1,12 +1,12 @@
 Const IMAGE_SRCS = [
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/t1.jpg»,
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T2.jpg»,
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T3.jpg»,
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T4.jpg»,
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T5.jpg»,
-«https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T6.jpg»,
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/t1.jpg",
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T2.jpg",
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T3.jpg",
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T4.jpg",
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T5.jpg",
+"https://raw.githubusercontent.com/asdas8644-sketch/skayrim1/refs/heads/main/T6.jpg",
 ];
-Const IMAGE_ASPECTS = [1, 2, 3, 4, 5, 6];
+Const IMAGE_ASPECTS = [1, 1, 1, 1, 1, 1];
 Const FACE_NAMES = [
   «Тамриель 1»,
   «Тамриель 2»,
@@ -66,7 +66,7 @@ Dom.strip.innerHTML = «»;
 For (let i = 0; i < N; i++) {
   Const a = document.createElement(«a»);
   a.href = #s${i};
-  a.className = «scene-dot» + (i === 0 ? « active» : «»);
+  a.className = «scene-dot» + (i === 0 ? «active» : «»);
   dom.strip.appendChild(a);
 }
 
